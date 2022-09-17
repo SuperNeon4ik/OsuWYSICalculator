@@ -41,6 +41,8 @@ def calculate_acc(greatHits: int, goodHits: int, mehHits: int, totalObjects: int
     return round(((300 * greatHits + 100 * goodHits + 50 * mehHits) / (300 * totalObjects)) * 10000) / 100
 
 if __name__ == '__main__':
+    colorama.init()
+
     print("The WYSI Calculator for osu! by SuperNeon4ik")
     print(f"{colorama.Fore.YELLOW}WARNING:{colorama.Fore.RESET} Doesn't work with Score V2!")
     print()
@@ -72,3 +74,5 @@ if __name__ == '__main__':
             print(f"{colorama.Fore.YELLOW}WARNING:{colorama.Fore.RESET} The artist is not 'xi', which means you will not get the medal, since it's one of the requirements.")
     except:
         print(f"{colorama.Fore.RED}ERROR:{colorama.Fore.RESET} Bad map difficulty file.")
+
+    input('Press ENTER to exit.')
