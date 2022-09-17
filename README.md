@@ -12,6 +12,9 @@ Download the `.exe` or `.py` at [The GitHub Releases Page](https://github.com/Su
 5. When you reach the provided numbers, just stop playing and let you get those misses.
 6. In the end you should have the accuracy you went for if you did everything right! **WYSI!**
 
+# Output Example
+![](/assets/outputexample.png)
+
 **TODO:** GIFs or a video to show how to use it.
 
 > Made by [SuperNeon4ik](https://superneon4ik.xyz/)

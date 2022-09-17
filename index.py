@@ -10,8 +10,6 @@ def get_map_data(filePath: str):
 
     if filePath.startswith('"') and filePath.endswith('"'):
         filePath = filePath[1:len(filePath) - 1]
-    
-    print(filePath)
 
     file = open(filePath, 'r', encoding="UTF-8")
     countAsObjects = False
@@ -52,7 +50,7 @@ if __name__ == '__main__':
 
         mapdata = get_map_data(diffPath)
 
-        print(f"Map Data: {str(mapdata)}")
+        print(f"Map Data: {colorama.Fore.YELLOW}{str(mapdata)}{colorama.Fore.RESET}")
 
         hitobjects_count = mapdata["object_count"]
 
