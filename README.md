@@ -1,6 +1,9 @@
 # The WYSI Calculator for osu!
 The easier way to get the WYSI badge!
 
+# Download
+Download the `.exe` or `.py` at [The GitHub Releases Page](https://github.com/SuperNeon4ik/OsuWYSICalculator/releases/latest)
+
 # How to use?
 1. Download and run the script.
 2. When it asks you to `Enter the path to the difficulty file` either type out the path to the difficulty file located in your osu folder or just drag-and-drop it! (ex. `E:\Games\osu!\Songs\292301 xi - Blue Zenith\xi - Blue Zenith (Asphyxia) [FOUR DIMENSIONS].osu`).
